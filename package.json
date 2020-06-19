@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "startDev" : "node index.js",
+    "startDev": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/erikkohleisen/test/issues"
   },
-  "homepage": "https://github.com/erikkohleisen/test#readme"
+  "homepage": "https://github.com/erikkohleisen/test#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
